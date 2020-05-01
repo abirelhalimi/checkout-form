@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Checkout Form</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Gabriela&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Arbutus+Slab&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+<div class="container">
+    <div class="checkout">
+        <h1>Checkout</h1>
+        <form>
+            <div class="row">
+                <div class="group">
+                    <label for="first-name">First Name</label><br>
+                    <input id="first-name" name="first-name" type="text" placeholder="First name"/>
+                </div>
+                <div class="group">
+                    <label for="last-name">Last Name</label><br>
+                    <input id="last-name" name="last-name" type="text" placeholder="Last name"/>
+                </div>
+                <div class="group">
+                    <label for="amount">Amount</label><br>
+                    <div id="amount">56 &euro;</div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="group cc-number">
+                    <label for="cc-number">Credit Card Number</label><br>
+                    <input id="cc-number" name="cc-number" type="text" placeholder="xxxx xxxx xxxx xxxx"/>
+                </div>
+                <div class="group expiry-date">
+                    <label for="expiry-date">Expiry Date</label><br>
+                    <input id="expiry-date" type="text" name="expiry-date" placeholder="MM/YYYY">
+                </div>
+            </div>
+			<div class="row">
+				<div class="group">
+					<label for="cvc">CVC</label><br>
+					<input id="cvc" name="cvc" type="number" placeholder="xxx">
+				</div>
+				<div class="group">
+					<label for="pay-type-1">Payment Type</label><br>
+					<input class="pay-type" id="pay-type-1" readonly/>
+					<input class="pay-type" id="pay-type-2" readonly/>
+				</div>
+				<button class="submit">Pay now</button>
+			</div>
+
+
+        </form>
+    </div>
+</div>
+</body>
+</html>

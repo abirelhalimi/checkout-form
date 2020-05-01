@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #9FB6C0;
+}
+
+h1 {
+    color: #90CDE4;
+    font-family: Arbutus Slab, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 62px;
+}
+
+form {
+    text-align: left;
+    margin: 20px;
+}
+
+label {
+    color: #90CDE4;
+    font-family: Gabriela, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+input {
+    border: 1px solid #9FB6C0;
+    width: 250px;
+    height: 66px;
+    color: #9FB6C0;
+    font-family: Gabriela, sans-serif;
+    font-size: 22px;
+}
+
+.pay {
+    border: 1px solid #9FB6C0;
+    width: 250px;
+    height: 100px;
+}
+
+
+#amount {
+    width: 123px;
+    height: 66px;
+    background-color: #9FB6C0;
+    color: white;
+    text-align: center;
+    font-family: Gabriela, sans-serif;
+    font-size: 26px;
+    padding: 15px 10px;
+}
+
+.submit {
+    width: 200px;
+    height: 66px;
+    text-align: center;
+    font-family: Arbutus Slab, sans-serif;
+    font-style: normal;
+    font-size: 22px;
+    color: rgba(255,255,255,1);
+    background-color:  #90CDE4;
+    border: none;
+    border-radius: 10px;
+}
+
+.submit:hover {
+    font-size: 25px;
+}
+
+.pay-type {
+    background-size: 100%;
+    width: 123px;
+    height: 66px;
+    background-position: center;
+    display: inline-block;
+    pointer-events: none;
+}
+
+#pay-type-1 {
+    background-image: url("https://pngimg.com/uploads/visa/visa_PNG38.png");
+}
+
+#pay-type-2 {
+    background-image: url("https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/206_Mastercard_Credit_Card_logo_logos-512.png");
+}
+
+.cc-number input {
+    border: 1px solid #9FB6C0;
+    width: 545px;
+    height: 66px;
+}
+
+.expiry-date input {
+    border: 1px solid #9FB6C0;
+    width: 123px;
+    height: 66px;
+}
+
+.group {
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.flex {
+    display: flex;
+    width: 300px;
+}
+
+/*.row {*/
+/*    display: block;*/
+/*}*/
+
+.container {
+    text-align: center;
+}
+
+.checkout {
+    background-color: white;
+    border-radius: 60px;
+    width: 850px;
+    height: 538px;
+    display: inline-block;
+    margin: 50px auto;
+}
